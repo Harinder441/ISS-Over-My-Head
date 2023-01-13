@@ -7,12 +7,12 @@ from letter_format import msg_format
 import time
 
 
-UTC_OFSET = (5, 30, 0)
-MY_POS = (29.833709, 74.982323)  # Kalanwali
-mail_to = "harindersingh2107@gmail.com"
+UTC_OFSET = (5, 30, 0) # utc offset time for your place 
+MY_POS = (29.833709, 74.982323)  # your latitude and longitude
+mail_to = Reciever-Email-Id
 msg_sub = "ISS coming closer"
 msg_from = "Internation Space Station"
-# MY_POS1 = (-22,-115)
+
 while True:
     time.sleep(60)
     iss_pos = iss_location()
