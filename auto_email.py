@@ -1,9 +1,7 @@
-# Learnings
-## from yahoo
 import smtplib
 
 
-def send_mail(to_ad, massage,from_ad="harryautoemail@gmail.com", password="dgtkeudhnbowvhli"):
+def send_mail(to_ad, massage,from_ad=Your_email_id, password=Your_APP_password):
     with smtplib.SMTP("smtp.gmail.com") as con:
         # securing
         con.starttls()
@@ -13,12 +11,4 @@ def send_mail(to_ad, massage,from_ad="harryautoemail@gmail.com", password="dgtke
 
 
 if __name__ == "__main__":
-    my_email = "harryautoemail@gmail.com"
-    passw = "dgtkeudhnbowvhli"
-    msg = "Subject:Hello Sahil \n\n greeting from Harry auto mail"
-    to = "basant29082001@gmail.com"
-    i = 1
-    while (i < 100):
-        msg = f"Subject:Hello{i} Basant Singh \n\n greeting from Harry auto mail {i}"
-        # send_mail(massage=msg)
-        i += 1
+   pass
